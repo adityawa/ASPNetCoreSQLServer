@@ -7,7 +7,7 @@ namespace WebAppMVC.Models
 {
     public class PesanModel
     {
-        //test
+        //test edit
         public string Name { get; set; }
         public string Message { get; set; }
     }

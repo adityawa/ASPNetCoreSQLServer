@@ -8,8 +8,16 @@ namespace WebAppMVC.Controllers
 {
     public class HelloWorldController : Controller
     {
+        [HttpGet]
         public IActionResult Index()
         {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Index(Models.PesanModel data)
+        {
+            ViewBag.Pesan = data.Name + " Mengatakan " + data.Message;
             return View();
         }
     }

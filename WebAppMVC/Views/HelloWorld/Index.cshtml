@@ -7,8 +7,22 @@
 <h2>Pesan</h2>
 @using (Html.BeginForm())
 {
+    <p>
+        @Html.LabelFor(m => m.Name)
+        @Html.TextBoxFor(m => m.Name)
+    </p>
 
+    <p>
+        @Html.LabelFor(m => m.Message)
+        @Html.TextBoxFor(m => m.Message)
+    </p>
 
+    <p>
+        @ViewBag.Pesan
+    </p>
+    <p>
+        <input type="submit" value="submit" />
+    </p>
 }
 
 

@@ -5,9 +5,11 @@ VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppEmpty", "WebAppEmpty\WebAppEmpty.csproj", "{AFA5C78E-F44B-47B6-964A-BD21397D82BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppRazor", "WebAppRazor\WebAppRazor.csproj", "{BCFA04BE-B2EF-47CF-9507-2CFE606C597B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppRazor", "WebAppRazor\WebAppRazor.csproj", "{BCFA04BE-B2EF-47CF-9507-2CFE606C597B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppMVC", "WebAppMVC\WebAppMVC.csproj", "{CFEA5069-46AC-40D0-B7F3-580EC44764AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppMVC", "WebAppMVC\WebAppMVC.csproj", "{CFEA5069-46AC-40D0-B7F3-580EC44764AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppCodeFirst", "WebAppCodeFirst\WebAppCodeFirst.csproj", "{0F727B3E-6068-4F66-9719-A15583AD74E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{CFEA5069-46AC-40D0-B7F3-580EC44764AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFEA5069-46AC-40D0-B7F3-580EC44764AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFEA5069-46AC-40D0-B7F3-580EC44764AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F727B3E-6068-4F66-9719-A15583AD74E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F727B3E-6068-4F66-9719-A15583AD74E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F727B3E-6068-4F66-9719-A15583AD74E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F727B3E-6068-4F66-9719-A15583AD74E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
